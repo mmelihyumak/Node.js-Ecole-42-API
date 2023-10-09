@@ -3,8 +3,8 @@ const axios = require('axios');
 const app = express();
 
 // OAuth 2.0 parametreleri
-const CLIENT_ID = 'u-s4t2ud-ff1e348f36060dd1a2b53f762935e9c8cc1e400cf4a3952d544c3681cbe8ab16';
-const CLIENT_SECRET = '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';
+const CLIENT_ID = 'YOUR_UID';
+const CLIENT_SECRET = 'YOUR_SECRET_ID';
 const REDIRECT_URI = 'http://localhost:3000/';
 const AUTH_URL = 'https://api.intra.42.fr/oauth/authorize';
 const TOKEN_URL = 'https://api.intra.42.fr/oauth/token';
